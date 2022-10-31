@@ -12,10 +12,10 @@ COLING 2022 (2022.10.12~10.17) [Link](https://coling2022.org/)
 CreativeSumm Workshop: [Link](https://creativesumm.github.io/sharedtask)  
 Scriptbase [Paper](https://aclanthology.org/N15-1113/)   [Github](https://github.com/EdinburghNLP/scriptbase)
 
-### Abstraction: 
+## Paper Abstraction: 
 In this paper, we describe our work for the CreativeSumm 2022 Shared Task, Automatic Summarization for Creative Writing. The task is to summarize movie scripts, which is challenging due to their long length and complex format. To tackle this problem, we present a two-stage summarization approach using both the abstractive and an extractive summarization methods. In addition, we preprocess the script to enhance summarization performance. The results of our experiment demonstrate that the presented approach outperforms baseline models in terms of standard summarization evaluation metrics.
 
-# Our model : Two-Stage Summarization Approach
+## Our model : Two-Stage Summarization Approach
 ### Using both the abstractive and extractive summarization method
 1. similar scenes merge based on character information
 2. abstractive summarization for each scene.
@@ -28,9 +28,9 @@ In this paper, we describe our work for the CreativeSumm 2022 Shared Task, Autom
 ![enter image description here](https://github.com/BaeSuyoung/MovING_sum/blob/main/image/pic2.png)
 
 
-# Evaluation Result
+## Evaluation Result
 
 ![enter image description here](https://github.com/BaeSuyoung/MovING_sum/blob/main/image/pic3.png)
 
 
-# Conclusion
+## Conclusion
