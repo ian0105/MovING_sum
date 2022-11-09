@@ -6,7 +6,7 @@ Paper: [https://aclanthology.org/2022.creativesumm-1.8](https://aclanthology.org
 ## Task Abstraction: 
 MovING 팀은 CreativeSumm Workshop task 4개 중에서 **summarization of movie scripts** 에 참가했습니다.  
 워크샵에서 제공한 Scriptbase 데이터셋을 사용해서 요약 성능을 높이는 Task로  abstractive와 extractive summarization 방법을 결합한 Two-Stage Summarization Model 을 제안했고, script에서 중요한 Scene 을 더 잘 추출하기 위해 Topic modeling 방법을 적용했습니다.  
-저희 팀의 모델을 사용해서 평가한 결과 Baseline 결과보다 ROUGE, BERTScore에서 높은 요약 성능을 보였습니다.
+저희 팀의 모델을 사용해서 평가한 결과 Baseline 결과보다 ROUGE, BERTScore에서 높은 요약 성능을 보였고, 해당 CreativeSumm Workshop task Leaderboard 에서 2등을 달성해 Coling 워크샵 논문 투고 및 발표를 진행했습니다.  
 
 COLING 2022 (2022.10.12~10.17) [Link](https://coling2022.org/)  
 CreativeSumm Workshop: [Link](https://creativesumm.github.io/sharedtask)  
@@ -25,6 +25,7 @@ In this paper, we describe our work for the CreativeSumm 2022 Shared Task, Autom
 
 
 ### Framework
+
 ![enter image description here](https://github.com/BaeSuyoung/MovING_sum/blob/main/image/pic2.png)
 
 
