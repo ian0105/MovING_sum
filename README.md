@@ -29,13 +29,17 @@ In this paper, we describe our work for the CreativeSumm 2022 Shared Task, Autom
 
 
 ### Framework
+저희 팀의 모델 프레임워크는 다음과 같습니다. 우선 scriptbase 각 영화별로 scene 에서 주인공을 추출한 후, 주인공 별로 scene 을 다시 merge 해서 scene segmentation 을 진행합니다.  
+다시 재구성한 scene 을 각각 **DialogueLM** 모델에 넣어 scene abstractive summary 를 생성하고, **LDA** topic model 을 사용해서 각 영화에서 중요한 topic 단어 10개를 추출한 후, 각 scene 에서 영화의 topic이 몇 개가 등장하는 지를 summary 옆에 추가합니다.  
+마지막으로 summary 를 모두 합쳐서 **BertSum** 모델에 넣어 extractive summary 를 구성해 이를 final summary 로 정의합니다.  
 
 ![enter image description here](https://github.com/BaeSuyoung/MovING_sum/blob/main/image/pic2.png)
 
 
 ## Evaluation Result
-
+저희 모델은 ROUGE, BERTScore 점수가 baseline 모델 점수보다 좋은 점수를 기록했습니다. 
 ![enter image description here](https://github.com/BaeSuyoung/MovING_sum/blob/main/image/pic3.png)
 
 
 ## Conclusion
+
