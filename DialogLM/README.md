@@ -1,4 +1,4 @@
-DialogLED의 자세한 내용은 https://github.com/microsoft/DialogLM를 참조하세요.
+DialogL의 자세한 내용은 https://github.com/microsoft/DialogLM를 참조하세요.
 
 # DialogLED
 **Pre-trained Model for Long Dialogue Understanding and Generation based on Longformer-Encoder-Decoder (LED)**
