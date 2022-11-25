@@ -1,3 +1,30 @@
+# util
+import pandas as pd
+import urllib.request
+import os
+import re
+import matplotlib.pyplot as plt
+from tqdm import tqdm
+import time
+
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.decomposition import LatentDirichletAllocation
+
+# nltk 추가 다운
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
+# LDA
+import gensim
+from gensim import corpora
+from gensim.models.coherencemodel import CoherenceModel
+import pyLDAvis.gensim_models   # 시각화
+
 # custom LDA 모델
 class LDAmodel:
     def __init__(self, dataset, print=True, target_col='content'):
