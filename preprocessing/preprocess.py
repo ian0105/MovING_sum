@@ -45,7 +45,7 @@ def dialogue_extraction():
                         index.append(i)
                     break
             if char:
-            dialogue += char + '\n' + dia + '\n' 
+                dialogue += char + '\n' + dia + '\n' 
         #print(index)
         for i, t in enumerate(text):
             if i in index:
