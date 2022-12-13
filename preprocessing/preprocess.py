@@ -32,7 +32,7 @@ def dialogue_extraction():
         dialogues = re.findall(r'[A-Z]+\n(.+?)\n', text)
         dialogues += re.findall(r'[A-Z]+\n\n(.+?)\n', text)
         text = text.split('\n')
-       text = [n for n in text if n]
+        text = [n for n in text if n]
         dialogue = ''
         for dia in dialogues:
             for i, t in enumerate(text):
